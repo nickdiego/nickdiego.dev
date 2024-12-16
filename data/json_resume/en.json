@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Nick Yamane",
+    "label": "Open Source Hacker",
+    "image": "/images/nick-sp-2024-5.jpg",
+    "email": "nickdiego@igalia.com",
+    "summary": "I'm a free software enthusiast and open source programmer from Brazil hacking on web browsers and adjascent technologies at Igalia since 2018. Aside from that, most of my time goes to my beloved family and friends. Passionate about skateboarding lifestyle and do-it-yourself countercultures.",
+    "location": {
+      "city": "Manaus",
+      "countryCode": "BR"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "url": "https://github.com/nickdiego"
+      },
+      {
+        "network": "Mastodon",
+        "url": "https://social.coop/@nickdiego"
+      },
+      {
+        "network": "Bluesky",
+        "url": "https://bsky.app/profile/nickdiego.dev"
+      },
+      {
+        "network": "Matrix",
+        "url": "https://matrix.to/#/@nickdiego:igalia.com"
+      },
+      {
+        "network": "Linkedin",
+        "url": "https://linkedin.com/in/nickdiego"
+      },
+      {
+        "network": "rss",
+        "url": "https://nickdiego.dev/index.xml"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Universidade Federal do Amazonas",
+      "url": "https://www.ufam.edu.br/",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2003-01-01",
+      "endDate": "2006-12-31"
+    }
+  ],
+  "skills": [
+  ],
+  "languages": [
+    {
+      "language": "Brazilian Portuguese",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "work": [],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2024-12-16T15:00:00"
+  }
+}

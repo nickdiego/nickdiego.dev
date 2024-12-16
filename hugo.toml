@@ -1,6 +1,27 @@
 baseURL = 'https://nickdiego.dev/'
+copyright = "© 2024 Nick Yamane"
 languageCode = 'en-us'
-title = 'nickdiego.dev'
+title = "nickdiego.dev"
+
+[outputs]
+  home = ["html", "rss", "searchIndex"]
+
+[outputFormats]
+  [outputFormats.searchIndex]
+    mediaType = "application/json"
+    baseName = "search-index"
+    isPlainText = true
+    notAlternative = true
+
+[params]
+  subtitle = "Home"
+  [params.author]
+    name = 'Nick Yamane'
+    email = 'nickdiego@igalia.com'
+  [params.logo]
+    text = "nickdiego.dev"
+    url = "/"
+
 
 [markup]
   # (Optional) To be able to use all Prism plugins, the theme enables unsafe
@@ -19,7 +40,6 @@ title = 'nickdiego.dev'
   [[module.imports]]
     path = "github.com/schnerring/hugo-mod-json-resume"
     [[module.imports.mounts]]
-      # This will add the sample Richard Hendricks CV data
       source = "data"
       target = "data"
     [[module.imports.mounts]]
