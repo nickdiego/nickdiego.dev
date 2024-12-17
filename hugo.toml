@@ -6,6 +6,9 @@ title = "nickdiego.dev"
 [outputs]
   home = ["html", "rss", "searchIndex"]
 
+[taxonomies]
+  tag = 'tags'
+
 [outputFormats]
   [outputFormats.searchIndex]
     mediaType = "application/json"
