@@ -22,6 +22,17 @@ title = "nickdiego.dev"
     text = "nickdiego.dev"
     url = "/"
 
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 40
 
 [markup]
   # (Optional) To be able to use all Prism plugins, the theme enables unsafe
