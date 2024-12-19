@@ -1,17 +1,11 @@
 ---
 title: "Olá, mundo!"
-authors: [Nick Yamane]
+authors: ['Nick Yamane']
 date: "2024-12-10T19:40:00-04:00"
 toc: false
-images:
-- maues-bird-view.jpg
+images: ['maues-bird-view.jpg']
 draft: false
-tags:
-- about
-- igalia
-- foss
-- chromium
-- brazil
+tags: ['about', 'igalia', 'foss', 'chromium', 'brazil']
 ---
 
 > Hello, world!
