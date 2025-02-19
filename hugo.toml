@@ -26,6 +26,9 @@ title = "nickdiego.dev"
   [params.logo]
     text = "nickdiego.dev"
     url = "/"
+  [params.fediverse]
+    host = "social.coop"
+    user = "nickdiego"
 
 [menu]
   [[menu.main]]
