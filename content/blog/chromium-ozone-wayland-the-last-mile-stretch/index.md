@@ -5,6 +5,8 @@ date: "2025-02-19T09:00:00-04:00"
 images: ['chrome-wayland-flags-2025-02-18.png', 'chr-wl-per-surface-scale-fullhd-100_with-5627169.png']
 toc: true
 draft: false
+comments:
+  toot: 114031599876177866
 tags: ['chromium', 'ozone', 'wayland', 'linux', 'mutter', 'gnome', 'igalia']
 ---
 
