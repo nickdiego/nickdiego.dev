@@ -25,7 +25,7 @@ const styles = `
   --block-border-radius: 3px;
   --block-background-color: var(--bg);
 
-  --comment-indent: 20px;
+  --comment-indent: 4px;
   --comment-padding: 0px;
 }
 
@@ -280,10 +280,7 @@ class MastodonComments extends HTMLElement {
           </div>
           <div class="date"><a href="${
             toot.url
-          }" rel="nofollow">${toot.created_at.substr(
-            0,
-            10,
-          )} ${toot.created_at.substr(11, 8)}</a></div>
+          }" rel="nofollow">${toot.created_at.substr(0, 10,)} ${toot.created_at.substr(11, 5)}</a></div>
         </div>
         <div class="content">${toot.content}</div>
         <div class="attachments">
