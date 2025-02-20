@@ -7,7 +7,9 @@
   {{- if and .page.Date .page.Lastmod (ge $hours 72) -}}
     <span> (updated: {{ .page.Lastmod.Format "2006-01-02" }})</span>
   {{- end -}}
-  <span> {{ printf " · %d words, %d minutes" .page.WordCount .page.ReadingTime }}</span>
+  {{- if eq .page.Type "blog" -}}
+    <span> {{ printf " 🕮  %d minutes" .page.ReadingTime }}</span>
+  {{- end -}}
   {{ with .page.Params.tags }}
     <div class="post-tags">
       {{ range . -}}
