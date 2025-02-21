@@ -172,7 +172,7 @@ class MastodonComments extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <div id="mastodon-stats"></div>
-      <h2>Comments</h2>
+      <h2 id="comments-title">Comments</h2>
 
       <p>You can use your Fediverse (i.e. Mastodon, etc) account to reply to this <a class="link"
           href="https://${this.host}/@${this.user}/${this.tootId}">post</a>.
@@ -246,10 +246,14 @@ class MastodonComments extends HTMLElement {
   }
 
   render_toots(toots, in_reply_to, depth) {
+    if (!toots)
+      return;
     var tootsToRender = toots
       .filter((toot) => toot.in_reply_to_id === in_reply_to)
       .sort((a, b) => a.created_at.localeCompare(b.created_at));
     tootsToRender.forEach((toot) => this.render_toot(toots, toot, depth));
+    document.getElementById("comments-title").textContent =
+      "Comments (" + toots.length + ")";
   }
 
   render_toot(toots, toot, depth) {
