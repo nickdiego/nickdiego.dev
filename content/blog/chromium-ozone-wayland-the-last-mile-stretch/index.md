@@ -2,6 +2,7 @@
 title: "Chromium Ozone/Wayland: The Last Mile Stretch"
 author: 'Nick Yamane'
 date: "2025-02-19T09:00:00-04:00"
+modified: "2025-02-24"
 images: ['chrome-wayland-flags-2025-02-18.png', 'chr-wl-per-surface-scale-fullhd-100_with-5627169.png']
 toc: true
 draft: false
@@ -251,7 +252,7 @@ such as:
 - [Support text-only UI resizing in response to system's font scale changes](https://issues.chromium.org/issues/365076678)
 - [Best-effort to support Window Management web API](https://issues.chromium.org/356665088)
 - [Per-window scale renderer-side refactors](https://issues.chromium.org/348590032)
-- [No native theme support in non-browser chrome widgets](https://issues.chromium.org/396190940)
+- [No native theme support in non-browser chrome widgets](https://issues.chromium.org/396190939)
 - [Wacom Stylus does not register when chromium is on wayland natively w/ ozone](https://issues.chromium.org/40282832)
 
 New sponsors and partners are always welcome, so please don't hesitate
